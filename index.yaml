@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  reboot-resemble:
+  - apiVersion: 3.3.2
+    appVersion: 0.13.2
+    created: "2024-09-10T16:34:14.263423955Z"
+    description: Resemble is a programming framework that enables transactional microservices
+      built with the developer in mind.
+    digest: b279ea41981a65a6ee18b4b2f5695dbed113b17917d9acd30b34d61742bdcfd2
+    home: https://docs.reboot.dev/
+    keywords:
+    - transactional
+    - microservices
+    - serverless
+    - scalable
+    - reactive
+    name: reboot-resemble
+    type: application
+    urls:
+    - https://github.com/reboot-dev/helm-charts/releases/download/reboot-resemble-0.13.2-0/reboot-resemble-0.13.2-0.tgz
+    version: 0.13.2-0
+generated: "2024-09-10T16:34:14.263575278Z"
