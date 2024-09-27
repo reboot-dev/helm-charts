@@ -1,15 +1,15 @@
-# A Resemble application.
+# A Reboot application.
 app:
-  # Set to the name of your Resemble application.
+  # Set to the name of your Reboot application.
   #
   # Example: "hello"
   name: null
 
   # Set to the Docker image containing your application.
   #
-  # Your image should derive from a `ghcr.io/reboot-dev/resemble-base` image.
+  # Your image should derive from a `ghcr.io/reboot-dev/reboot-base` image.
   #
-  # Example: "ghcr.io/reboot-dev/resemble/examples/hello@sha256:773d8a7f5c758e22df712865765fda49d553cf66d4c5c622639d4cc470ce3610"
+  # Example: "ghcr.io/reboot-dev/reboot/examples/hello@sha256:b3420ac1507ac66f977b77ba65f1ed6264e229a9d1812b9801e7cbef11dbcb83"
   image: null
 
   # Configures the persistent storage for the application.
@@ -49,7 +49,7 @@ app:
     # This storage type currently has no options, so set it to `{}` to enable it.
     existingEfs: null
 
-    # The directory name to use for Resemble application state inside of
+    # The directory name to use for Reboot application state inside of
     # persisted storage.
     #
     # NOTE: Cannot be changed once data has been stored!
