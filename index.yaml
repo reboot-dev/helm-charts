@@ -2,6 +2,24 @@ apiVersion: v1
 entries:
   reboot:
   - apiVersion: 3.3.2
+    appVersion: 0.37.1
+    created: "2025-09-05T12:52:57.778679098Z"
+    description: Reboot is a programming framework that enables transactional microservices
+      built with the developer in mind.
+    digest: c3190faddee0f59785f1c6919f2aea8b6b497aabe84df7aa059576948da5f068
+    home: https://docs.reboot.dev/
+    keywords:
+    - transactional
+    - microservices
+    - serverless
+    - scalable
+    - reactive
+    name: reboot
+    type: application
+    urls:
+    - https://github.com/reboot-dev/helm-charts/releases/download/reboot-0.37.1/reboot-0.37.1.tgz
+    version: 0.37.1
+  - apiVersion: 3.3.2
     appVersion: 0.36.0
     created: "2025-08-28T11:04:18.482971924Z"
     description: Reboot is a programming framework that enables transactional microservices
@@ -596,4 +614,4 @@ entries:
     urls:
     - https://github.com/reboot-dev/helm-charts/releases/download/reboot-resemble-0.13.2-0/reboot-resemble-0.13.2-0.tgz
     version: 0.13.2-0
-generated: "2025-08-28T11:04:18.48325844Z"
+generated: "2025-09-05T12:52:57.778926621Z"
